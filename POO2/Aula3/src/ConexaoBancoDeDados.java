@@ -10,7 +10,7 @@ public class ConexaoBancoDeDados {
 	private Connection conexao;
 	private final String URL_Bancodedados = "jdbc:mysql://localhost:3306/nomebd";
 	private final String usuario = "root";
-	private final String senha = "Iftm@123";
+	private final String senha = "senha";
 	
 	public ConexaoBancoDeDados()	{
 		try { Class.forName("com.mysql.cj.jdbc.Driver");
